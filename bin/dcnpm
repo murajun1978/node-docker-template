@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 
-docker-compose run --rm --service-ports node_dev npm "$@"
+docker-compose run --rm --service-ports --name node-docker node_dev npm "$@"
