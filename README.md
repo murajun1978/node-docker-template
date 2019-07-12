@@ -5,9 +5,18 @@
 ## Requirements
 
 - [Docker](https://docs.docker.com/install/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Usage
 
+Execute npm on Docker:
+
 ```
-$ ./bin/npm init -y
+$ ./bin/dnpm init -y
+```
+
+Execute npm on Docker Compose:
+
+```
+$ ./bin/dcnpm init -y
 ```
